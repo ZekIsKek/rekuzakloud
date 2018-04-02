@@ -1,0 +1,82 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+>
+<LinearLayout
+    android:id="@+id/linear1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#4CAF50"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/enterhereuridforkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:hint="Enter The Key"
+        android:textColorHint="#FFFFFF"
+        android:singleLine="true"
+        />
+    <EditText
+        android:id="@+id/enterhereuridvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:hint="Enter Value"
+        android:textColorHint="#FFFFFF"
+        android:singleLine="true"
+        />
+    <Button
+        android:id="@+id/buttonforgenakey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:text="Generate A Key"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:id="@+id/idforgetvaluefromkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:hint="Enter A Key"
+        android:textColorHint="#FFFFFF"
+        android:singleLine="true"
+        />
+    <Button
+        android:id="@+id/buttonforgetvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:text="Get Value"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/valuewillloadhere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Value"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        />
+    <WebView
+        android:id="@+id/webviewforloading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
